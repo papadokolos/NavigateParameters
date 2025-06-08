@@ -76,7 +76,7 @@ class GotoPrevParameterCommand(sublime_plugin.TextCommand):
         patterns = (
             ", ?",
             "\\(",
-            "\\{")
+            "\\{ ?")
 
         regions = (
             self.view.find(pattern, start_pt, sublime.FindFlags.REVERSE)
