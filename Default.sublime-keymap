@@ -1,0 +1,4 @@
+[
+    { "keys": ["ctrl+alt+right"], "command": "goto_next_parameter" },
+    { "keys": ["ctrl+alt+left"], "command": "goto_prev_parameter" },
+]
